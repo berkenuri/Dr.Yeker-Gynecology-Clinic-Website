@@ -1,0 +1,317 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Crimson Pro", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+small {
+  font-size: 1rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Heading */
+
+.big-heading {
+  font-family: "Crimson Pro", serif;
+  font-weight: 400;
+  font-size: 4.5rem;
+  line-height: 1.5;
+  text-align: left;
+  color: rgb(56, 56, 56);
+  padding-bottom: 0.5rem;
+}
+
+.small-heading {
+  font-family: "Crimson Pro", serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0% 15% 1%;
+  background-color: whitesmoke;
+}
+
+.navbar-brand {
+  font-family: "Crimson Pro", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+.navbar-brand small {
+  display: block;
+  margin-left: 70px;
+}
+
+.nav-item {
+  padding: 0px 12px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar .navbar-brand {
+  color: navy;
+}
+
+.navbar .navbar-brand:hover {
+  color: navy;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: navy;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: purple;
+}
+
+/* Title */
+
+#title {
+  background-color: white;
+  color: rgb(99, 98, 98);
+  margin-top: 3rem;
+  padding-top: 3%;
+}
+
+.title-img {
+  width: 60%;
+}
+
+.title-pic-row {
+  position: relative;
+  padding-top: 12%;
+  left: 50px;
+}
+
+.title-contact-row {
+  position: relative;
+  left: 50px;
+}
+
+.title-icons {
+  display: inline;
+  padding-top: 7%;
+  padding-right: 10px;
+  color: navy;
+  color: rgb(99, 98, 98);
+}
+
+.title-icons:hover {
+  text-decoration: none;
+  color: purple;
+}
+
+.title-contact {
+  display: inline;
+  font-size: 1rem;
+}
+
+.tedavi-btn {
+  margin: 0.5%;
+  background-color: navy;
+  border-color: navy;
+}
+
+.tedavi-btn:hover {
+  background-color: purple;
+  border-color: purple;
+}
+
+/* Clinic */
+
+#clinic {
+  background-color: #2f416d;
+  color: white;
+}
+
+.clinic-features {
+  padding: 3% 15% 3%;
+}
+
+.clinic-icons {
+  padding-bottom: 5%;
+}
+
+.carousel {
+  padding: 3% 15% 3%;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 1%;
+}
+
+.carousel-item.active {
+  padding: 1%;
+}
+
+.carousel-control-prev-icon {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+}
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px;
+  margin-right: auto;
+}
+
+.clinic-img {
+  width: 60%;
+  border-radius: 5%;
+}
+
+/* Hours */
+
+#hours {
+  background-color: white;
+  color: rgb(99, 98, 98);
+}
+
+.clock-icon {
+  display: inline-block;
+  size: 75%;
+  padding-left: 12px;
+}
+
+.hours-description {
+  padding-top: 3%;
+}
+
+/* Hospitals */
+
+#hospitals {
+  background-color: whitesmoke;
+  color: rgb(99, 98, 98);
+}
+
+.hospital-logo {
+  width: 75%;
+  margin: 10% 0 10%;
+}
+
+.hospital-row {
+  position: relative;
+  min-height: 150px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.hospital-names {
+  position: absolute;
+  bottom: 0;
+}
+
+/* Footer */
+
+#footer {
+  background-color: white;
+  color: rgb(99, 98, 98);
+  padding: 3% 20% 1% 20%;
+  text-align: center;
+}
+
+/* CONTACT HTML */
+
+/* Reach Us */
+
+#reach-us {
+  background-color: white;
+  color: rgb(99, 98, 98);
+  margin-top: 3rem;
+  padding-top: 3%;
+}
+
+.contact-info {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.icon-row {
+  padding-top: 3%;
+  text-align: center;
+}
+
+.icons {
+  color: rgb(99, 98, 98);
+  padding: 5% 0 5%;
+  text-align: center;
+}
+
+.icons:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+/* Address */
+
+#address {
+  /* background-color: rgb(99, 98, 98); */
+  background-color: #2f416d;
+  color: white;
+}
+
+.address-btn-description {
+  display: inline;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.google-maps {
+  min-height: 350px;
+}
+
+@media (max-width: 762px) {
+  #title,
+  #reach-us {
+    margin-top: 7.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .carousel {
+    padding: 3% 3% 3%;
+  }
+
+  .clinic-img {
+    width: 80%;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: 10px;
+  }
+  .carousel-control-next-icon {
+    margin-right: 10px;
+  }
+}
+
+@media (max-width: 565px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .hospital-logo {
+    width: 50%;
+  }
+}
