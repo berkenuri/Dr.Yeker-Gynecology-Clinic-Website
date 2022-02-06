@@ -14,7 +14,7 @@ small {
 }
 
 .container-fluid {
-  padding: 3% 15% 5%;
+  padding: 5% 15% 7%;
 }
 
 /* Heading */
@@ -125,6 +125,12 @@ small {
 .title-contact {
   display: inline;
   font-size: 1rem;
+  color: rgb(99, 98, 98);
+}
+
+.title-contact:hover {
+  text-decoration: none;
+  color: purple;
 }
 
 .tedavi-btn {
@@ -146,6 +152,10 @@ small {
 #clinic {
   background-color: #2f416d;
   color: white;
+}
+
+.clinic-container {
+  padding: 5% 0 7%;
 }
 
 .clinic-features {
@@ -250,8 +260,14 @@ small {
 }
 
 .contact-info {
+  color: rgb(99, 98, 98);
   font-size: 1rem;
   line-height: 2;
+}
+
+.contact-info:hover {
+  color: purple;
+  text-decoration: none;
 }
 
 .icon-row {
@@ -306,14 +322,16 @@ small {
   }
 }
 
-@media (max-width: 762px) {
-  #title,
-  #reach-us {
-    margin-top: 7.5rem;
-  }
-}
+@media (max-width: 768px) {
 
-@media (max-width: 750px) {
+  .container-fluid {
+    padding: 5% 10% 10%;
+  }
+
+  .clinic-container {
+    padding: 5% 0 10%;
+  }
+
   .carousel {
     padding: 3% 3% 3%;
   }
@@ -330,6 +348,13 @@ small {
   }
 }
 
+@media (max-width: 682px) {
+  #title,
+  #reach-us {
+    margin-top: 7.5rem;
+  }
+}
+
 @media (max-width: 565px) {
   h1 {
     font-size: 2.5rem;
@@ -340,13 +365,17 @@ small {
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 540px) {
   h1 {
     font-size: 2rem;
   }
 
   .container-fluid {
-    padding: 3% 7% 5%;
+    padding: 5% 7% 10%;
+  }
+
+  .clinic-container {
+    padding: 5% 7% 10%;
   }
 
   .navbar {
@@ -358,7 +387,21 @@ small {
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 426px) {
+  .container-fluid {
+    padding: 10% 7% 15%;
+  }
+
+  .clinic-container {
+    padding: 10% 7% 15%;
+  }
+
+  #footer {
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 380px) {
   h1 {
     font-size: 1.7rem;
   }
