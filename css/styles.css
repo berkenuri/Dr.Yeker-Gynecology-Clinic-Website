@@ -163,6 +163,11 @@ small {
   padding: 3% 15% 3%;
 }
 
+.clinic-icon-row {
+  padding-top: 5%;
+  text-align: center;
+}
+
 .clinic-icons {
   padding-bottom: 5%;
 }
