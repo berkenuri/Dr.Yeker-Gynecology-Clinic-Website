@@ -155,14 +155,6 @@ small {
   color: white;
 }
 
-.clinic-container {
-  padding: 5% 0 7%;
-}
-
-.clinic-features {
-  padding: 3% 15% 3%;
-}
-
 .clinic-icon-row {
   padding-top: 5%;
   text-align: center;
@@ -200,7 +192,7 @@ small {
 }
 
 .clinic-img {
-  width: 60%;
+  width: 100%;
   border-radius: 5%;
 }
 
@@ -336,10 +328,6 @@ small {
     padding: 5% 10% 10%;
   }
 
-  .clinic-container {
-    padding: 5% 0 10%;
-  }
-
   .carousel {
     padding: 3% 3% 3%;
   }
@@ -388,10 +376,6 @@ small {
     padding: 5% 7% 10%;
   }
 
-  .clinic-container {
-    padding: 5% 7% 10%;
-  }
-
   .navbar {
     padding: 0% 7% 1%;
   }
@@ -403,10 +387,6 @@ small {
 
 @media (max-width: 450px) {
   .container-fluid {
-    padding: 10% 7% 15%;
-  }
-
-  .clinic-container {
     padding: 10% 7% 15%;
   }
 
