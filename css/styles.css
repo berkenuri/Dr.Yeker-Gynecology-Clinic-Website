@@ -129,6 +129,7 @@ small {
 }
 
 .title-contact:hover {
+  font-size: 1.1rem;
   text-decoration: none;
   color: purple;
 }
@@ -263,10 +264,12 @@ small {
   color: rgb(99, 98, 98);
   font-size: 1rem;
   line-height: 2;
+  margin-bottom: 0;
 }
 
 .contact-info:hover {
   color: purple;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -341,10 +344,12 @@ small {
   }
 
   .carousel-control-prev-icon {
-    margin-left: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
   .carousel-control-next-icon {
-    margin-right: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -352,6 +357,10 @@ small {
   #title,
   #reach-us {
     margin-top: 7.5rem;
+  }
+
+  .clinic-icon-row p {
+    padding-bottom: 10%;
   }
 }
 
