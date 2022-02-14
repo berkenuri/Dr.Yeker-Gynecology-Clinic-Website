@@ -172,6 +172,10 @@ small {
   text-align: center;
 }
 
+ol.carousel-indicators {
+  margin-bottom: 3%;
+}
+
 .carousel-control-prev-icon {
   width: 40px;
   height: 40px;
