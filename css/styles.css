@@ -172,23 +172,15 @@ small {
   text-align: center;
 }
 
-.carousel-item {
-  padding: 1%;
-}
-
-.carousel-item.active {
-  padding: 1%;
-}
-
 .carousel-control-prev-icon {
   width: 40px;
   height: 40px;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 .carousel-control-next-icon {
   width: 40px;
   height: 40px;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .clinic-img {
@@ -332,18 +324,18 @@ small {
     padding: 3% 3% 3%;
   }
 
-  .clinic-img {
+  /* .clinic-img {
     width: 80%;
-  }
+  } */
 
-  .carousel-control-prev-icon {
+  /* .carousel-control-prev-icon {
     margin-left: 0px;
     margin-right: 0px;
   }
   .carousel-control-next-icon {
     margin-left: 0px;
     margin-right: 0px;
-  }
+  } */
 }
 
 @media (max-width: 682px) {
