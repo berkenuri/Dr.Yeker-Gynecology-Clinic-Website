@@ -179,12 +179,10 @@ ol.carousel-indicators {
 .carousel-control-prev-icon {
   width: 40px;
   height: 40px;
-  /* margin-left: auto; */
 }
 .carousel-control-next-icon {
   width: 40px;
   height: 40px;
-  /* margin-right: auto; */
 }
 
 .clinic-img {
@@ -285,7 +283,6 @@ ol.carousel-indicators {
 /* Address */
 
 #address {
-  /* background-color: rgb(99, 98, 98); */
   background-color: #2f416d;
   color: white;
 }
@@ -328,18 +325,6 @@ ol.carousel-indicators {
     padding: 3% 3% 3%;
   }
 
-  /* .clinic-img {
-    width: 80%;
-  } */
-
-  /* .carousel-control-prev-icon {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-  .carousel-control-next-icon {
-    margin-left: 0px;
-    margin-right: 0px;
-  } */
 }
 
 @media (max-width: 682px) {
