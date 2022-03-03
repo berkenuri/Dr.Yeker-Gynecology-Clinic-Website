@@ -95,18 +95,19 @@ small {
 }
 
 .title-img {
-  width: 60%;
+  width: 100%;
 }
 
 .title-pic-row {
-  position: relative;
+  /* position: relative; */
   padding-top: 12%;
-  left: 50px;
+  /* left: 50px; */
 }
 
 .title-contact-row {
-  position: relative;
-  left: 50px;
+  padding-top: 30px;
+  /* position: relative; */
+  /* left: 50px; */
 }
 
 .title-icons {
